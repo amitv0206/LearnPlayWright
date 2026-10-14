@@ -18,3 +18,11 @@ console.log(` Status ${statusCode} : ${category}`);
 
 //==================================================================================
 
+let temp =35;
+let feel =(temp>=40) ? "Very Hot" :
+             (temp>=30) ? "Hot" :
+             (temp>=20) ? "Good" :
+             (temp>=10) ? "Cool" : "Very Cool";
+
+             console.log(`Temperature : ${temp} | Feel : ${feel}`);
+
